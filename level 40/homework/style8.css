@@ -1,0 +1,18 @@
+#ariel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    font-style: italic;
+    font-weight: bold;
+}
+#Times{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    font-style: italic;
+    font-weight: bold;
+}
+#other{
+    font-family: cursive;
+    font-size: 90px;
+    font-style: italic;
+    font-weight: bold;
+}

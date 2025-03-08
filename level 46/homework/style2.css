@@ -1,0 +1,78 @@
+body{
+    height: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(250, 215, 201);
+}
+main{
+    width: 550px;
+    height: 1500px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(237, 237, 237);
+}
+img{
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.div1{
+    justify-content: space-around;
+    margin: 20px;
+}
+.div2{
+    margin: 30px;
+    background-color: rgb(244, 235, 253);
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h4{
+    color:rgb(174, 69, 200);
+    font-weight: bold;
+}
+li{
+    padding: 6px;
+}
+.h3_1{
+    color:chocolate;
+    padding-left: 20px;
+}
+.div3{
+    border-bottom: 2px solid rgb(179, 177, 177);
+}
+.h3_2{
+    color:chocolate;
+    padding-left: 20px; 
+}
+.div4{
+    border-bottom: 2px solid rgb(179, 177, 177);
+}
+.h3_4{
+    color:chocolate;
+    padding-left: 20px; 
+}
+#last{
+    padding-left: 20px; 
+}
+table{
+    padding-left: 20px; 
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border-bottom: 1px solid rgb(179, 177, 177);
+    padding: 10px;
+}
+#fat{
+    border-bottom:  none;
+}
+#gg{
+    border-bottom: none;
+}

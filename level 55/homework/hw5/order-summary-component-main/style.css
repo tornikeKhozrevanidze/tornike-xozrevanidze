@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  hsl(225, 100%, 94%);
+}
+section{
+    background-color:  hsl(0, 0%, 100%);
+    width: 32%;
+    height: 80%;
+    border-radius: 15px;
+    
+    
+}
+.img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+    
+}
+.every{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+p{
+    font-family: "Red Hat Display", serif;
+}
+.title{
+    font-weight: 900;
+    color:  hsl(223, 47%, 23%)
+    ;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.second_p{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-top: 0px;
+}
+.first_img:active{
+    background-color: aqua;
+}
+.third{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-items: center;
+
+    
+    width: 95%;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 0px;
+    
+}
+.middle{
+    margin: 0px;
+}
+.bla{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3px;
+}
+.change{
+    grid-column: 4;
+}
+#annual{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 15px;
+}
+#monney{
+    color:  hsl(224, 23%, 55%);
+    
+}
+.change{
+    color:  hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+}
+.change:active{
+    color:  hsla(245, 75%, 52%, 0.739);
+}
+button{
+    width: 98%;
+    background-color:  hsl(245, 75%, 52%);
+    margin-top: 25px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0px 10px 20px hsla(245, 75%, 52%, 0.398);
+}
+.last{
+    margin-top: 25px;
+    font-weight: 700;
+    color:  hsl(224, 23%, 55%);
+}
+.last:active{
+    color:  hsl(223, 47%, 23%);
+}
+button:active{
+    background-color:  hsla(245, 75%, 52%, 0.766);
+}

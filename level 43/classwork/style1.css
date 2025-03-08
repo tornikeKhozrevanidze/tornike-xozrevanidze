@@ -1,0 +1,39 @@
+#one{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+#two{
+    list-style-type:disc;
+    list-style-position: outside;
+}
+#three{
+    list-style-type: square;
+    list-style-position: unset;
+}
+#four{
+    list-style-type: armenian;
+    list-style-position: inside;
+}
+#five{
+    list-style-type: georgian;
+    list-style-position: outside;
+}
+#six{
+    list-style-type:lower-greek;
+    list-style-position: initial;
+}
+#seven{
+    list-style-type:upper-alpha;
+    list-style-position: inside;
+}
+#eight{
+    list-style-type:lower-latin;
+    list-style-position: inside;
+}
+#nine{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+#li{
+    list-style-image: url("https://static.vecteezy.com/system/resources/thumbnails/022/134/063/small/square-shape-illustration-graphic-vector.jpg");
+}

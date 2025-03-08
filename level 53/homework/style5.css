@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 30px;
+    animation-name: momo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes momo{
+    from{
+        color: rgb(17, 255, 28);
+    }
+    50%{
+        color: fuchsia;
+    }
+    to{
+        color: rgb(17, 255, 28);
+    }
+}

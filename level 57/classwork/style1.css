@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    
+    height: 100vh;
+    
+}
+.parent{
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    background-color: aqua;
+    padding: 20px;
+}
+.child{
+    
+    width: 90%;
+    height: 90%;
+    border: 1px solid red;
+    background-color: crimson;
+
+}
+img{
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+p{
+    font-family: "Rubik Vinyl", serif;
+    text-shadow: 2px 2px 20px maroon ;
+    color: red;
+    text-decoration: dashed underline;
+    text-transform: uppercase;
+    font-size: xx-large;
+}

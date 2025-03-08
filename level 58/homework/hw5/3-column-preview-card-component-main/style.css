@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    grid-template-rows: 80%;
+    justify-content: center;
+    align-content: center;
+    
+}
+.div1{
+    background-color:  hsl(31, 77%, 52%);
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.div2{
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    align-items: center;
+    
+}
+.div3{
+    background-color:  hsl(179, 100%, 13%);
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+h1{
+    
+    font-family: "Big Shoulders Display", serif;
+    margin-top: 30px;
+    color: white;
+    font-size: 3.5vw;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+p{
+    font-family: "Lexend Deca", serif;
+    margin-top: 0px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: 1.6vw;
+    line-height: 160%;
+    font-weight: 200;
+}
+img{
+    margin-bottom: 0px;
+}
+div{
+    padding: 13%;
+    box-sizing: border-box;
+}
+.parent{
+    padding: 0px;
+    height: auto;
+}
+button{
+    margin-top: 90px;
+    height: 60px;
+    width: 75%;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.but1{
+    color:  hsl(31, 77%, 52%);
+    font-size: 1.5vw;
+}
+.but2{
+    color:  hsl(184, 100%, 22%);
+    font-size: 1.5vw;
+}
+.but3{
+    color:  hsl(179, 100%, 13%);
+    font-size: 1.5vw;
+}
+button:active{
+    background-color: hsl(31, 77%, 52%);
+}
+.but1:active{
+    color: rgb(255, 253, 253);
+}
+.but2:active{
+    color: rgb(255, 255, 255);
+}
+.but3:active{
+    color: rgb(255, 255, 255);
+}
+@media (max-width:980px){
+    body{
+        grid-template-rows: 70%;
+    }
+}
+@media (max-width:540px){
+    body{
+        grid-template-rows: 420px;
+    }
+    button{
+        height: 40px;
+    }
+}
+@media (max-width: 395px){
+    body{
+        grid-template-columns: 90%;
+        height: 170vh;
+
+    }
+    h1{
+        font-size: 10vw;
+    }
+    p{
+        font-size: 4.1vw;
+    }
+    button{
+        margin-top: 10px;
+        height: 50px;
+        margin-bottom: 0px;
+        width: 60%;
+        
+    }
+    .but1{
+        font-size: 4vw;
+    }
+    .but2{
+        font-size: 4vw;
+    }
+    .but3{
+        font-size: 4vw;
+    }
+    .div1{
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 0px;
+    }
+    .div3{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+}

@@ -1,0 +1,13 @@
+input{
+    border-radius: 10px;
+}
+#submit{
+    background-color: red;
+    color: aqua;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: green;
+    color: red;
+    font-weight: bold;
+}

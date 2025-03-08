@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+    
+
+
+img{
+    width: 400px;
+}
+.first_section{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-size: contain;
+    background-color:  hsl(193, 100%, 96%);
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 60px;
+    padding-top: 0px;
+
+    
+}
+.logo_div{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+}
+
+
+
+.h1_div{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 410px;
+    margin-right: 50px;
+    
+    
+}
+.first_photo{
+    display: flex;
+    flex-direction: column;
+
+}
+.first_img{
+    width: 640px;
+    
+}
+
+.logo{
+    width: 190px;
+    margin-right: 750px;
+    
+}
+.logo1{
+    width: 190px;
+    
+    
+}
+.button1{
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    height: 40px;
+    box-shadow: 0px 2px 5px hsl(208, 11%, 55%)
+
+}
+p{
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+}
+.first_butt{
+    height: 40px;
+    width: 240px;
+    border: none;
+    border-radius: 50px;
+    background-color:  hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 0px 2px 5px hsl(208, 11%, 55%);
+}
+h1{
+    margin-bottom: 45px;
+    font-family: "Poppins", serif;
+    color: hsl(192, 100%, 9%);
+    
+    
+}
+h2{
+    font-family: "Poppins", serif;
+    color: hsl(192, 100%, 9%);
+}
+.huddle{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color:  hsl(192, 100%, 9%)
+}
+.bla{
+    margin-bottom: 0px;
+}
+.button1:active{
+    color: hsl(208, 11%, 55%);
+}
+.first_butt:active{
+    color: hsl(208, 11%, 55%);
+}
+.second_section{
+    display: flex;
+    margin: 80px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    
+}
+.third_section{
+    display: flex;
+    margin: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.fourth_section{
+    display: flex;
+    margin: 80px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    
+    
+}
+.last_div{
+    border: 1px solid black;
+    width: 800px;
+    margin: 120px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second_section, .third_section, .fourth_section{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 2px  hsl(210, 9%, 91%);
+    padding: 60px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+}
+.last_div{
+    height: 220px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 2px  hsl(210, 9%, 91%);
+    border: none;
+    padding: 20px;
+    position: absolute;
+    top: 2070px;
+    right: 190px;
+    background-color: white;
+    
+}
+.last_button{
+    height: 50px;
+    width: 390px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "Open Sans", serif;
+    color: white;
+    box-shadow: 0px 3px 5px  hsl(208, 11%, 55%);
+    
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(192, 100%, 9%);
+    height: 400px;
+    padding: 20px;
+
+}
+.qwer{
+    width: 25%;
+    padding: 20px;
+    color: white;
+    
+}
+.last_p{
+    font-size: 11px;
+}
+.list1{
+    list-style-image: ;
+}
+.last{
+    display: flex;
+    margin-right: 200px;
+}
+.jojo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+#i1{
+    margin-top: 40px;
+}
+#i2{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+#i3{
+    margin-top: 0px;
+}

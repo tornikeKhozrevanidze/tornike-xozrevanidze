@@ -1,0 +1,8 @@
+a{
+    font-size: xx-large;
+    text-decoration: none;
+}
+a:link{
+    color: blue;
+    border: dashed;
+}

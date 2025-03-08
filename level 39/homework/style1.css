@@ -1,0 +1,46 @@
+main{
+    width: 250px;
+}
+#hello{
+    text-decoration: dotted underline green;
+    text-align: right;
+
+}
+#world{
+    text-decoration: line-through;
+    text-align: center;
+}
+#ss{
+    text-decoration: double overline red;
+    text-align: left;
+}
+#goal{
+    text-decoration: underline;
+    text-align: center;
+}
+#oriented{
+    text-decoration: dotted line-through green;
+    text-align: right;
+}
+#academy{
+    text-decoration: line-through;
+    text-align: left;
+}
+#is{
+    text-decoration: overline;
+    text-align: left;
+}
+#the{
+    text-decoration: overline green;
+    text-align: right;
+    color: green;
+}
+#best{
+    text-decoration: overline gray;
+    text-align: center;
+    color: gray;
+}
+#one{
+    text-decoration: dotted underline green;
+    text-align: right;
+}

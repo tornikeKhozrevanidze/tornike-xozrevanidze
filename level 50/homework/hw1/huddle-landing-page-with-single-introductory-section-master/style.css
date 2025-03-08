@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color:  hsl(257, 40%, 49%);
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.p1{
+    font-family: "Poppins", serif;
+}
+.div2{
+    padding-bottom: 35PX;
+}
+.p1{
+    font-family:"Poppins", serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 25PX;
+}
+.p2{
+    font-family:  "Open Sans", serif;
+    color: rgb(228, 227, 227);
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+button{
+    background-color: white;
+    color:  hsl(257, 40%, 49%);
+    font-size: 22px;
+    width: 190px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 5px 10px rgb(60, 60, 60);
+}
+button:active{
+    color: white;
+    background-color:  hsl(300, 69%, 71%);
+}
+.img1{
+    margin-bottom: 80px;
+    width: 220px;
+}

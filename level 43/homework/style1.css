@@ -1,0 +1,37 @@
+table{
+    border:1px solid none;
+    width: 400px;
+    height: 170px;
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    
+    
+    
+    
+}
+#first{
+    background-color:rgb(32, 186, 135);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#second{
+    background-color: white;
+    border-bottom: 1px solid rgb(159, 157, 157);
+    text-align: center;
+}
+#third{
+    background-color: rgb(233, 231, 231);
+    border-bottom: 1px solid rgb(167, 166, 166);
+    text-align: center;
+    color: rgb(32, 186, 135);
+    font-weight: bold;
+}
+#fourth{
+    background-color: white;
+    border-bottom: rgb(32, 186, 135) 3px solid;
+    text-align: center;
+    
+}

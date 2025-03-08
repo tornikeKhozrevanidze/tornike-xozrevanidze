@@ -1,0 +1,19 @@
+input[type="text"]{
+    border: none;
+    border-bottom:dashed grey;
+}
+#surname{
+    border-bottom: dashed yellowgreen;
+}
+input[type="password"]{
+    border-radius: 10px;
+    border-bottom-color: crimson;
+}
+#repassword{
+    border-bottom-color: chartreuse;
+}
+#email{
+    color: aqua;
+    outline: darkblue;
+    border-color: greenyellow;
+}

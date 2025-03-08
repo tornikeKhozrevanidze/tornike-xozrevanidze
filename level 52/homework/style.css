@@ -1,0 +1,52 @@
+.first{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition:1s;
+    
+}
+.first:hover{
+    transform: translate(20px, 10px);
+}
+.second{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50px;
+    transition: 1s;
+}
+.second:hover{
+    transform: scale(2);
+}
+.third{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    transition: 1s;
+}
+.third:hover{
+    transform: rotate(30deg);
+}
+.four{
+    width: 100px;
+    height: 100px;
+    background-color:fuchsia;
+    transition: 1s;
+    
+
+}
+.four:hover{
+    transform: scale(1.5) rotate(180deg);; 
+    
+    
+}
+.fifth{
+    width: 100px;
+    height: 100px;
+    background-color:navy;
+    transition: 1s;
+    
+}
+.fifth:hover{
+    transform: translate(50px, 100px);
+}

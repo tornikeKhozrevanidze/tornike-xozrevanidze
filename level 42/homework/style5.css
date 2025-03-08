@@ -1,0 +1,13 @@
+a{
+    background-color: blueviolet;
+    color: chartreuse;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: aqua;
+    color: brown;
+}
+a:active{
+    background-color: crimson;
+    color: lawngreen;
+}

@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    animation-name: noaoa;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    border: 6px dashed red;
+    
+
+}
+@keyframes noaoa{
+    from{
+
+    }
+    50%{
+        transform: translate(0px, -200px);
+        
+        
+    }
+    to{
+
+    }
+   
+}
+.div2{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}

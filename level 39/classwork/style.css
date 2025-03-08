@@ -1,0 +1,37 @@
+#ov{
+    text-decoration: overline red;
+    font-size: 100px;
+    color: blue;
+}
+#un{
+    text-decoration: underline blue;
+    font-size: 100px;
+    color: green;
+}
+#li{
+    text-decoration: line-through green;
+    font-size: 100px;
+    color: rgb(195, 0, 254);
+}
+#ovun{
+    text-decoration: overline underline red;
+    color: blue;
+    font-size: 100px;
+}
+#ovli{
+    text-decoration: overline line-through blue;
+    color: green;
+    font-size: 100px;
+
+}
+#unli{
+    text-decoration: underline line-through aqua;
+    color: rgb(228, 244, 2);
+    font-size: 100px;
+
+}
+#all{
+    text-decoration: overline underline line-through orange;
+    color: indigo;
+    font-size: 100px;
+}

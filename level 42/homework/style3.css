@@ -1,0 +1,9 @@
+a{
+    font-size: xx-large;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}

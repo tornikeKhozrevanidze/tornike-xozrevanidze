@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    animation-name: oko;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+@keyframes oko{
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes animation{
+    from{
+        background-color: aqua;
+        ;
+    }
+    50%{
+        background-color: rgb(255, 68, 0);
+    }
+    to{
+        background-color: aqua;
+    }
+}

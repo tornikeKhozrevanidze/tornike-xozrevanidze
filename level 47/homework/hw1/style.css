@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 340px;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+    
+    
+}
+.img{
+    border-radius: 15px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    margin: 3px;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 13px;
+    
+}
+.p1{
+    margin-left: 3px;
+    font-size: 14px;
+
+}
+.p2{
+    margin-left: 3px;
+    margin: 2px;
+    font-family: "Figtree", serif;
+    font-weight: 800;
+
+
+}
+.p2:hover{
+    color: hsl(47, 88%, 63%);;
+}
+.p3{
+    margin-left: 3px;
+    color: hsl(0, 0%, 42%);
+}
+.divv{
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 16px;
+    font-family: "Figtree", serif;
+    font-weight: 500;
+}
+.img2{
+    width: 35px;
+    height: 35px;
+
+}
+.name{
+    margin-left: 14px;
+    font-weight: bold;
+}
+.attribution{
+    margin-top: 10px;
+}

@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 10% 10% 10%  10% 10% 10%  10% 10% 10%;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: brown;
+}
+div{
+    background-color: aqua;
+}
+@media (max-width: 700px){
+    section{
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+@media (max-width: 450px){
+    section{
+        grid-template-columns: 90%;
+    }
+}
